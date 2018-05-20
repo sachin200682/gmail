@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="\Guru99Automation(failed)">
+    <classes>
+      <class name="TestCases.AllTestCases">
+        <methods>
+          <include name="ClickOnHomePages"/>
+          <include name="openBrowserAndurl"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- TestCases.AllTestCases -->
+    </classes>
+  </test> <!-- \Guru99Automation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
