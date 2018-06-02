@@ -1,9 +1,10 @@
 package Common;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
-import org.testng.annotations.Test.*;
+
 
 public class Common 
 {
@@ -18,12 +19,14 @@ public class Common
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		
-  }
-	public static void closebrowser() 
+		
+		
+	
+   }
+	public static void closeYourbrowser() 
 	{
 		driver.close();
 	}
-  
 }
 	
 
