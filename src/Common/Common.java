@@ -18,9 +18,6 @@ public class Common
 		driver.get("https://www.guru99.com/");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		
-		
-		
 	
    }
 	public static void closeYourbrowser() 
