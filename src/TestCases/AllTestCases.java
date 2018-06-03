@@ -48,7 +48,7 @@ public class AllTestCases
 	@AfterMethod
 		public void closebrowser() 
 	{
-			Common.closebrowser();
+			Common.closeYourbrowser();
 			System.out.println("After Method run");
 	}
 }
